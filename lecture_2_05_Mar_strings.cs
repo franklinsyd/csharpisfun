@@ -43,7 +43,7 @@ namespace lecture3_strings
             //Print the length of a string
             Console.WriteLine("The length of the above string is : " + (a_very_long_string.Length).ToString()); 
 
-            // Get first 12 characters substring from a string    
+            // Get first 22 characters substring from a string    
             string sub_string = a_very_long_string.Substring(0, 22); //Starts from position 0 to position 2 , 3 is not included
             Console.WriteLine("First substring: "+ sub_string);
 
