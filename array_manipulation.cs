@@ -6,8 +6,9 @@ namespace ArrayApplication
     {
         static void Main(string[] args)
         {
-            int[] my_array = new int[18]; 
-            for (int i = 0; i < 18; i++)
+            int[] my_array = new int[18];  // store exp in an array
+            
+			for (int i = 0; i < 18; i++)
             {
                 my_array[i] = i + 500; // You can play with this part
             }
